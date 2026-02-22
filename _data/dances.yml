@@ -433,8 +433,8 @@
   location:
     en: "Patro Villeray Room 1.02-1.03"
     fr: "Patro Villeray Salle 1.02-1.03"
-  band: "McKinley James & François-Félix Roy"
-  caller: "TBD"
+  band: "McKinley James, Maia Dagher & François-Félix Roy"
+  caller: "Jonathan Werk"
 
 - date: "2026-04-17"
   special:
@@ -476,7 +476,7 @@
     en: "Patro Villeray Room 1.01"
     fr: "Patro Villeray Salle 1.01"
   band: "Kittiwake"
-  caller: "On Call"
+  caller: "Grace Hendrickson-Jones"
 
 - date: "2026-06-07"
   start_time: "14:30"
@@ -485,7 +485,7 @@
     en: "Patro Villeray Room 1.01"
     fr: "Patro Villeray Salle 1.01"
   band: "Here on the Hill"
-  caller: "TBD"
+  caller: "Mary Wesley"
 
 - date: "2026-06-20"
   start_time: "18:30"
