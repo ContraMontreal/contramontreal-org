@@ -478,6 +478,36 @@
   band: "Kittiwake"
   caller: "Grace Hendrickson-Jones"
 
+- date: "2026-05-30"
+  start_time: "18:30"
+  end_time: "21:30"
+  location:
+    en: "Patro Villeray Room TBD"
+    fr: "Patro Villeray Salle à déterminer"
+  band: "TBD"
+  caller: "TBD"
+
+- date: "2026-06-07"
+  start_time: "12:00"
+  end_time: "14:00"
+  location:
+    en: "Patro Villeray Room TBD"
+    fr: "Patro Villeray Salle à déterminer"
+  band: ""
+  caller: "Mary Wesley"
+  special:
+    en: "Special event: Callers' workshop with Mary Wesley"
+    fr: "Événement spécial: Atelier des calleurs avec Mary Wesley"
+  text:
+    en: ""
+    fr: ""
+  cal_title:
+    en: "Special event: Callers' workshop with Mary Wesley"
+    fr: "Événement spécial: Atelier des calleurs avec Mary Wesley"
+  cal_description:
+    en: "Special event: Callers' workshop with Mary Wesley"
+    fr: "Événement spécial: Atelier des calleurs avec Mary Wesley"
+
 - date: "2026-06-07"
   start_time: "14:30"
   end_time: "17:30"
