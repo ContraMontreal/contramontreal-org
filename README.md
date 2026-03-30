@@ -27,7 +27,7 @@ Instructions for installing on Debian:
 git clone https://github.com/neilguertin/contramontreal-org
 cd contramontreal-org
 sudo apt install ruby-full gcc g++ make
-gem install jekyll bundler jekyll-theme-cayman
+gem install jekyll bundler
 bundler install
 bundler exec jekyll serve --livereload --drafts
 ```
@@ -39,7 +39,7 @@ The website should now be live at http://localhost:4000/
 ## Site design
 Jekyll does not have great multi-lingual support. Here is a simple workaround that works well enough for a website of this size. Each page has three files: `title_en.html`, `title_fr.html` and `title_page.html`. title_en and title_fr have [front matter](https://jekyllrb.com/docs/front-matter/) (The lines at the top of the file between `---`) that tell Jekyll to process the files and create an html file on the final site. They also have a `lang` attribute. The title_page file contains the html for the actual page, and contains the text for both languages. It is done this way so that the English and French text can be next to each other in the same file, in order to keep them in sync more easily.
 
-The site uses the built in [Cayman](https://github.com/pages-themes/cayman) theme. The most visible parts of the theme have been hidden, but we still benefit from some default colors, default layout, SEO setup, and so on.
+The site was made using the built-in [Cayman](https://github.com/pages-themes/cayman) theme. Then the files were copied to our site directory to remove the dependencies and allow for more customizatoin. The most visible parts of the theme have been hidden, but we still benefit from some default colors, default layout, SEO setup, and so on.
 
 To add a new page: Add the three pages `title_en.html`, `title_fr.html` and `title_page.html`. Also add an entry to `_data/about_items.yml`.
 

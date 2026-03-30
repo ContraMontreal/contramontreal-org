@@ -39,7 +39,9 @@ locale: en_CA
 
 # Build settings
 #theme: minima
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+sass:
+  sass_dir: assets/css
 compress_html:
   blanklines: true
 
