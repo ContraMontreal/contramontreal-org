@@ -3,6 +3,17 @@
 /* cayman */
 @import "cayman";
 
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.woff2");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: bold;
+  src: url("../fonts/OpenSans-Bold.woff2");
+}
+
 $accent-text-color: #cc1c74 !default;
 
 .page-header {
