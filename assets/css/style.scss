@@ -1,7 +1,7 @@
 ---
 ---
 /* cayman */
-@import "cayman";
+@import "cayman-variables";
 
 @font-face {
   font-family: "Open Sans";
@@ -16,21 +16,17 @@
 
 $accent-text-color: #cc1c74 !default;
 
-.page-header {
-    display: none
-}
-.site-footer {
-    display: none
+footer {
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 /* custom css */
 body {
     background-color: #96b5e4;
 }
-main {
+.main-content {
     background-color: white;
-    position: relative;
-    z-index: 1;
 }
 
 /* navigation */
