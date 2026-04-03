@@ -189,3 +189,7 @@ nav .dropdown:hover .dropdown-content {
 table td, table th {
   border: none !important;
 }
+
+table.schedule td, table.schedule th {
+  border: 1px solid black !important;
+}
