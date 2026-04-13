@@ -37,6 +37,7 @@
 #  cal_description:
 #    en: ""
 #    fr: ""
+#  skip_show_as_next: true
 
 - date: "2024-08-24"
   start_time: "13:30"
@@ -443,6 +444,7 @@
   text:
     en: "Preregistration required: <a href='/en/bonjour-hey'>Link</a>"
     fr: "Préinscription requise: <a href='/fr/bonjour-hey'>Lien</a>"
+  skip_show_as_next: true
 
 - date: "2026-04-18"
   special:
@@ -451,6 +453,7 @@
   text:
     en: "Preregistration required: <a href='/en/bonjour-hey'>Link</a>"
     fr: "Préinscription requise: <a href='/fr/bonjour-hey'>Lien</a>"
+  skip_show_as_next: true
 
 - date: "2026-04-19"
   special:
@@ -459,6 +462,7 @@
   text:
     en: "Preregistration required: <a href='/en/bonjour-hey'>Link</a>"
     fr: "Préinscription requise: <a href='/fr/bonjour-hey'>Lien</a>"
+  skip_show_as_next: true
 
 - date: "2026-05-03"
   start_time: "14:30"
@@ -507,6 +511,7 @@
   cal_description:
     en: "Special event: Callers' workshop with Mary Wesley"
     fr: "Événement spécial: Atelier des calleurs avec Mary Wesley"
+  skip_show_as_next: true
 
 - date: "2026-06-07"
   start_time: "14:30"

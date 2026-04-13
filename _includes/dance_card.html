@@ -1,5 +1,5 @@
 <div class="dance-card">
-    <div class="upcoming-dance" data-date="{{dance.date}}">
+    <div class="upcoming-dance {%if dance.skip_show_as_next %}skip-show-as-next{% endif %}" data-date="{{dance.date}}">
         <div class="dance-special">
             {% if page.lang == "en" %}
                 {{dance.special.en}}

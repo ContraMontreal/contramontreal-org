@@ -18,6 +18,11 @@
             dance_date_str = dance_node.getAttribute('data-date'); // Like 2024-01-01
             dance_date = new Date(dance_date_str.slice(0,4),dance_date_str.slice(5,7)-1,dance_date_str.slice(8,10));
             if (dance_date >= today) {
+                if (dance_node.classList.contains('skip-show-as-next')) {
+                    continue;
+                }
+
+                // Copy dance card to next dance card spot
                 const new_dance_node = dance_node.cloneNode(true);
                 new_dance_node.classList.remove('upcoming-dance');
                 new_dance_node.id = 'next-dance';
