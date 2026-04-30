@@ -482,6 +482,28 @@
   band: "Kittiwake"
   caller: "Neil Guertin and Jacob deGroot-Maggetti"
 
+- date: "2026-05-22"
+  start_time: "18:30"
+  end_time: "20:30"
+  location:
+    en: "Rue Saint-Viateur / Rue Saint-Urbain"
+    fr: "Rue Saint-Viateur / Rue Saint-Urbain"
+  band: "TBD"
+  caller: "Grace Hendrickson-Jones"
+  text:
+    en: "Free dance on Rue Saint-Viateur as part of <a href='https://www.mileendenfete.com/'>Mile End en Fête</a>"
+    fr: "Danse gratuite sur Rue Saint-Viateur dans le cadre de <a href='https://www.mileendenfete.com/'>Mile End en Fête</a>"
+  special:
+    en: "Special event: Mile End en Fête"
+    fr: "Événement spécial: Mile End en Fête"
+  cal_title:
+    en: "Special event: Mile End en Fête"
+    fr: "Événement spécial: Mile End en Fête"
+  cal_description:
+    en: "Special event: Mile End en Fête"
+    fr: "Événement spécial: Mile End en Fête"
+  skip_show_as_next: true
+
 - date: "2026-05-30"
   start_time: "18:30"
   end_time: "21:30"
