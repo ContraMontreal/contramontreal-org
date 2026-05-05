@@ -550,5 +550,23 @@
   location:
     en: "Patro Villeray Room 1.01"
     fr: "Patro Villeray Salle 1.01"
+  band: "Open Band"
+  caller: "Marie-Michèle Fournier et Nicholas Smith"
+  special:
+    en: "Called in French"
+    fr: "Callé en français"
+  cal_title:
+    en: "Called in French"
+    fr: "Callé en français"
+  cal_description:
+    en: "Called in French"
+    fr: "Callé en français"
+
+- date: "2026-07-11"
+  start_time: "13:30"
+  end_time: "16:30"
+  location:
+    en: "Patro Villeray Room 1.01"
+    fr: "Patro Villeray Salle 1.01"
   band: "TBD"
   caller: "TBD"
