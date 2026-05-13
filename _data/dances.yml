@@ -488,8 +488,8 @@
   location:
     en: "Rue Saint-Viateur / Rue Saint-Urbain"
     fr: "Rue Saint-Viateur / Rue Saint-Urbain"
-  band: "TBD"
-  caller: "Grace Hendrickson-Jones"
+  band: "Jacob deGroot-Maggetti, Caroline Bruce-Robertson, & Milo Pierick"
+  caller: "Grace Hendrickson-Jones & Bernard Soubry"
   text:
     en: "Free dance on Rue Saint-Viateur as part of <a href='https://www.mileendenfete.com/'>Mile End en Fête</a>"
     fr: "Danse gratuite sur Rue Saint-Viateur dans le cadre de <a href='https://www.mileendenfete.com/'>Mile End en Fête</a>"
@@ -510,7 +510,7 @@
   location:
     en: "Patro Villeray Room TBD"
     fr: "Patro Villeray Salle à déterminer"
-  band: "TBD"
+  band: "Open Band"
   caller: "Grace Hendrickson-Jones"
 
 - date: "2026-06-07"
@@ -556,11 +556,8 @@
     en: "Called in French"
     fr: "Callé en français"
   cal_title:
-    en: "Called in French"
-    fr: "Callé en français"
-  cal_description:
-    en: "Called in French"
-    fr: "Callé en français"
+    en: "Contra Dance called in French"
+    fr: "contredanse callé en français"
 
 - date: "2026-07-11"
   start_time: "13:30"
