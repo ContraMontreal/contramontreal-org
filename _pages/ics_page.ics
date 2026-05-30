@@ -26,7 +26,7 @@ METHOD:PUBLISH
 {% if dance.date and dance.date >= current_date and dance.start_time and dance.end_time %}
 
 BEGIN:VEVENT
-UID:{{ dance.date | date: "%Y%m%d" }}@contramontreal.org
+UID:{{ dance.date | date: "%Y%m%d" }}{% if dance.event_order_on_day %}{{ dance.event_order_on_day }}{% endif %}@contramontreal.org
 DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%S" }}
 DTSTART;TZID=America/Toronto:{{ dance.date | append: "T" | append: dance.start_time | date: "%Y%m%dT%H%M%S" }}
 DTEND;TZID=America/Toronto:{{ dance.date | append: "T" | append: dance.end_time | date: "%Y%m%dT%H%M%S" }}

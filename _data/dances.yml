@@ -16,6 +16,13 @@
 # cal_title and cal_description are optional. They will appear
 #   in calendar events for those who have subscribed to the
 #   webcal feed
+# skip_show_as_next is optional. It is for special events that
+#   we don't want to appear highlighted on the main page as
+#   the next event
+# event_order_on_day is optional. It should be used in case
+#   there are multiple events on the same day, in order to
+#   disambiguate them for the calendar which otherwise uses
+#   only date as an id
 
 #- date: ""
 #  start_time: "TBD"
@@ -38,6 +45,7 @@
 #    en: ""
 #    fr: ""
 #  skip_show_as_next: true
+#  event_order_on_day: 1
 
 - date: "2024-08-24"
   start_time: "13:30"
@@ -534,6 +542,7 @@
     en: "Special event: Callers' workshop with Mary Wesley"
     fr: "Événement spécial: Atelier des calleurs avec Mary Wesley"
   skip_show_as_next: true
+  event_order_on_day: 1
 
 - date: "2026-06-07"
   start_time: "14:30"
@@ -543,6 +552,7 @@
     fr: "Patro Villeray Salle 1.01"
   band: "Here on the Hill"
   caller: "Mary Wesley"
+  event_order_on_day: 2
 
 - date: "2026-06-20"
   start_time: "18:30"
