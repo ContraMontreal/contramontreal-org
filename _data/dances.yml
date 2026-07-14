@@ -584,8 +584,8 @@
   location:
     en: "Patro Villeray Room TBD"
     fr: "Patro Villeray Salle à déterminer"
-  band: "TBD"
-  caller: "TBD"
+  band: "Jacob deGroot-Maggetti & Friends"
+  caller: "Nicholas Smith"
 
 - date: "2026-09-13"
   start_time: "14:30"
@@ -593,8 +593,11 @@
   location:
     en: "Patro Villeray Room TBD"
     fr: "Patro Villeray Salle à déterminer"
-  band: "TBD"
-  caller: "TBD"
+  band: "Open Band"
+  caller: "On Call"
+  special:
+    en: "Free dance!"
+    fr: "Danse gratuite!"
 
 - date: "2026-09-26"
   start_time: "18:30"
@@ -603,7 +606,7 @@
     en: "Patro Villeray Room TBD"
     fr: "Patro Villeray Salle à déterminer"
   band: "TBD"
-  caller: "TBD"
+  caller: "Jacob deGroot-Maggetti"
 
 - date: "2026-10-04"
   start_time: "14:30"
@@ -629,8 +632,8 @@
   location:
     en: "Patro Villeray Room TBD"
     fr: "Patro Villeray Salle à déterminer"
-  band: "TBD"
-  caller: "TBD"
+  band: "Les Quatre Patates"
+  caller: "Les Quatre Patates"
 
 - date: "2026-11-21"
   start_time: "18:30"
