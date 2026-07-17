@@ -578,13 +578,13 @@
   band: "Peter Subramanian & Grace Hendrickson-Jones"
   caller: "On Call"
 
-- date: "2026-08-22"
+- date: "2026-08-29"
   start_time: "13:30"
   end_time: "16:30"
   location:
     en: "Patro Villeray Room TBD"
     fr: "Patro Villeray Salle à déterminer"
-  band: "Jacob deGroot-Maggetti & Friends"
+  band: "Jacob deGroot-Maggetti & Max Riessen"
   caller: "Nicholas Smith"
 
 - date: "2026-09-13"
@@ -594,7 +594,7 @@
     en: "Patro Villeray Room TBD"
     fr: "Patro Villeray Salle à déterminer"
   band: "Open Band"
-  caller: "On Call"
+  caller: "TBD"
   special:
     en: "Free dance!"
     fr: "Danse gratuite!"
@@ -626,6 +626,27 @@
   band: "TBD"
   caller: "TBD"
 
+- date: "2026-10-24"
+  start_time: "15:00"
+  end_time: "17:00"
+  location:
+    en: "Patro Villeray Room TBD"
+    fr: "Patro Villeray Salle à déterminer"
+  band: "TBD"
+  caller: "TBD"
+  special:
+    en: "Special free event: Contra Connections: An Intermediate Contra Dance Workshop"
+    fr: "Événement spécial gratuit: Contra Connections: Un atelier de contredanse de niveau intermédiaire"
+  text:
+    en: "Been loving contra as a new dancer but want to take your dancing to the next level? Been dancing for years but want a stronger foundation? Want time to learn or practice some flourishes outside of a dance? Join us for an intermediate Contra workshop! We’ll look at less common, intermediate contra moves and break them down, learn flourishes and fun places to put them, and go over techniques to make partnered dancing feel smooth, attentive, and effortlessly connected. All skills will be taught in context, with time to practice on your own, with a partner, and in full dances selected to bring it all together. This workshop is free! It was created by Brooklyn Contra and Alyssa Adkins."
+    fr: "Vous adorez la contra et souhaitez progresser ? Vous dansez depuis des années et désirez consolider vos bases ? Vous aimeriez apprendre ou pratiquer des figures en dehors des soirées ? Rejoignez-nous pour un atelier de contra de niveau intermédiaire ! Nous explorerons des figures de contra intermédiaires moins courantes et les décomposerons, apprendrons des \"flourish\" et comment les intégrer de façon originale, et aborderons des techniques pour une danse en couple fluide, attentive et naturelle. Toutes les compétences seront enseignées en contexte, avec du temps pour pratiquer seul(e), avec un partenaire et sur des chorégraphies complètes sélectionnées pour une mise en pratique optimale. Cet atelier est gratuit! Il a été créé par Brooklyn Contra et Alyssa Adkins."
+  cal_title:
+    en: "Contra Connections: An Intermediate Contra Dance Workshop"
+    fr: "Contra Connections: Un atelier de contredanse de niveau intermédiaire"
+  cal_description:
+    en: "Contra Connections: An Intermediate Contra Dance Workshop"
+    fr: "Contra Connections: Un atelier de contredanse de niveau intermédiaire"
+
 - date: "2026-11-08"
   start_time: "14:30"
   end_time: "18:30"
@@ -644,14 +665,17 @@
   band: "TBD"
   caller: "TBD"
 
-- date: "2026-12-06"
-  start_time: "14:30"
-  end_time: "18:30"
+- date: "2026-12-09"
+  start_time: "18:00"
+  end_time: "20:00"
   location:
-    en: "Patro Villeray Room TBD"
-    fr: "Patro Villeray Salle à déterminer"
+    en: "Bibliothèque Langelier"
+    fr: "Bibliothèque Langelier"
   band: "TBD"
   caller: "TBD"
+  special:
+    en: "Special event: Free Contra dance at Bibliothèque Langelier"
+    fr: "Événement spécial: Contredanse gratuite à la bibliothèque Langelier"
 
 - date: "2026-12-19"
   start_time: "18:30"
