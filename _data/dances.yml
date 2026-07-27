@@ -582,8 +582,8 @@
   start_time: "13:30"
   end_time: "16:30"
   location:
-    en: "Patro Villeray Room TBD"
-    fr: "Patro Villeray Salle à déterminer"
+    en: "Patro Villeray Room 1.01"
+    fr: "Patro Villeray Salle 1.01"
   band: "Jacob deGroot-Maggetti & Max Riessen"
   caller: "Nicholas Smith"
 
@@ -591,8 +591,8 @@
   start_time: "14:30"
   end_time: "17:30"
   location:
-    en: "Patro Villeray Room TBD"
-    fr: "Patro Villeray Salle à déterminer"
+    en: "Patro Villeray Room 1.03"
+    fr: "Patro Villeray Salle 1.03"
   band: "Open Band"
   caller: "TBD"
   special:
@@ -603,8 +603,8 @@
   start_time: "18:30"
   end_time: "21:30"
   location:
-    en: "Patro Villeray Room TBD"
-    fr: "Patro Villeray Salle à déterminer"
+    en: "Patro Villeray Room 1.03"
+    fr: "Patro Villeray Salle 1.03"
   band: "TBD"
   caller: "Jacob deGroot-Maggetti"
 
@@ -612,8 +612,8 @@
   start_time: "14:30"
   end_time: "17:30"
   location:
-    en: "Patro Villeray Room TBD"
-    fr: "Patro Villeray Salle à déterminer"
+    en: "Patro Villeray Room 1.03"
+    fr: "Patro Villeray Salle 1.03"
   band: "TBD"
   caller: "TBD"
 
@@ -630,8 +630,8 @@
   start_time: "15:00"
   end_time: "17:00"
   location:
-    en: "Patro Villeray Room TBD"
-    fr: "Patro Villeray Salle à déterminer"
+    en: "Patro Villeray Room 1.03"
+    fr: "Patro Villeray Salle 1.03"
   band: "TBD"
   caller: "TBD"
   special:
@@ -651,8 +651,8 @@
   start_time: "14:30"
   end_time: "18:30"
   location:
-    en: "Patro Villeray Room TBD"
-    fr: "Patro Villeray Salle à déterminer"
+    en: "Patro Villeray Room 1.02"
+    fr: "Patro Villeray Salle 1.02"
   band: "Les Quatre Patates"
   caller: "Les Quatre Patates"
 
