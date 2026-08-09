@@ -6,6 +6,20 @@ Danses passées
 {% endif %}
 </h1>
 
-{% for dance in site.data.dances %}
-{% include dance_card.html dance = dance %}
+{% assign first_year = site.data.dances.first.date | date: "%Y" %}
+{% assign last_year = site.data.dances.last.date | date: "%Y" %}
+{% assign year_range = (first_year..last_year) %}
+
+{% for year in year_range %}
+    <a href=#{{year}}>{{year}}</a>
+{% endfor %}
+
+{% for year in year_range %}
+    <h2 id={{year}}>{{year}}</h2>
+    {% for dance in site.data.dances  %}
+        {% assign dance_year = dance.date | date: "%Y" | plus: 0 %}
+        {% if dance_year == year %}
+            {% include dance_card.html dance = dance %}
+        {% endif %}
+    {% endfor %}
 {% endfor %}
