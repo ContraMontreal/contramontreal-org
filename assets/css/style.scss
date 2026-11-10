@@ -57,6 +57,7 @@ nav .dropdown {
 nav .dropdown-content {
     display: none;
     position: absolute;
+    z-index: 1; /* keep above any other positioned page content */
     left: 0;
     top: 100%;
     min-width: 20ch;
