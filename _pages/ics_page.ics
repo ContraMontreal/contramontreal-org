@@ -21,12 +21,24 @@ URL:https://www.contramontreal.org/fr/contramontreal.ics
 {% endif %}
 METHOD:PUBLISH
 
-{% for dance in site.data.dances %}
 {% assign current_date = 'today' | date: '%Y-%m-%d' %}
+{% assign sorted_dances = site.data.dances | sort: "date" %}
+{% for dance in sorted_dances %}
 {% if dance.date and dance.date >= current_date and dance.start_time and dance.end_time %}
 
+{% comment %}
+    If there is more than one event on the same day, we need to ensure that the
+    UIDs are unique by adding a sequential suffix.
+{% endcomment %}
+{% assign prev_index = forloop.index0 | minus: 1 %}
+{% if sorted_dances[prev_index].date == dance.date %}
+{% assign id_suffix = id_suffix | plus: 1 %}
+{% else %}
+{% assign id_suffix = 0 %}
+{% endif %}
+
 BEGIN:VEVENT
-UID:{{ dance.date | date: "%Y%m%d" }}{% if dance.event_order_on_day %}{{ dance.event_order_on_day }}{% endif %}@contramontreal.org
+UID:{{ dance.date | date: "%Y%m%d" }}{% if id_suffix > 0 %}.{{ id_suffix }}{% endif %}@contramontreal.org
 DTSTAMP:{{ 'now' | date: "%Y%m%dT%H%M%S" }}
 DTSTART;TZID=America/Toronto:{{ dance.date | append: "T" | append: dance.start_time | date: "%Y%m%dT%H%M%S" }}
 DTEND;TZID=America/Toronto:{{ dance.date | append: "T" | append: dance.end_time | date: "%Y%m%dT%H%M%S" }}
