@@ -45,12 +45,16 @@ DTEND;TZID=America/Toronto:{{ dance.date | append: "T" | append: dance.end_time 
 {% if page.lang == "en" %}
 {% if dance.cal_title.en %}
 SUMMARY:ContraMontreal {{dance.cal_title.en}}
+{% elsif dance.special.en %}
+SUMMARY:ContraMontreal {{dance.special.en}}
 {% else %}
 SUMMARY:ContraMontreal Contra Dance
 {% endif %}
 {% elsif page.lang == "fr" %}
 {% if dance.cal_title.fr %}
 SUMMARY:ContraMontreal {{dance.cal_title.fr}}
+{% elsif dance.special.fr %}
+SUMMARY:ContraMontreal {{dance.special.fr}}
 {% else %}
 SUMMARY:ContraMontreal contredanse
 {% endif %}
@@ -64,27 +68,30 @@ LOCATION:{% if dance.location.en == "TBD" %}TBD{% else %}{{dance.location.en}}{%
 LOCATION:{% if dance.location.fr == "TBD" %}À déterminer{% else %}{{dance.location.fr}}{% endif %}
 {% endif %}
 {% endif %}
-{% if dance.caller and dance.caller != "" and dance.caller != "TBD" %}
-{% assign hasCaller = true %}
-{% else %}
-{% assign hasCaller = false %}
-{% endif %}
-{% if dance.band and dance.band != "" and dance.band != "TBD" %}
-{% assign hasBand = true %}
-{% else %}
-{% assign hasBand = false %}
-{% endif %}
+{% assign hasCaller =
+    dance.caller and dance.caller != "" and dance.caller != "TBD" %}
+{% assign hasBand = dance.band and dance.band != "" and dance.band != "TBD" %}
 {% if page.lang == "en" %}
 {% if dance.cal_description.en %}
 DESCRIPTION:{{dance.cal_description.en}} https://www.contramontreal.org/
 {% else %}
-DESCRIPTION:Contra dance{% if hasCaller %} called by {{dance.caller}}{% endif %}{% if hasBand %} with music by {{dance.band}}{% endif %} https://www.contramontreal.org/
+DESCRIPTION:Contra dance
+ {% if hasCaller %} called by {{dance.caller}}{% endif %}
+ {% if hasBand %} with music by {{dance.band}}{% endif %}
+ {% if dance.special.en %}\n{{dance.special.en}}{% endif %}
+ {% if dance.text.en %}\n{{dance.text.en}}{% endif %}
+ \nhttps://www.contramontreal.org/
 {% endif %}
 {% elsif page.lang == "fr" %}
 {% if dance.cal_description.fr %}
 DESCRIPTION:{{dance.cal_description.fr}} https://www.contramontreal.org/accueil
 {% else %}
-DESCRIPTION:Contredanse{% if hasCaller %} callée par {{dance.caller}}{% endif %}{% if hasBand %} avec musique par {{dance.band}}{% endif %} https://www.contramontreal.org/accueil
+DESCRIPTION:Contredanse
+ {% if hasCaller %} callée par {{dance.caller}}{% endif %}
+ {% if hasBand %} avec musique par {{dance.band}}{% endif %}
+ {% if dance.special.fr %}\n{{dance.special.fr}}{% endif %}
+ {% if dance.text.fr %}\n{{dance.text.fr}}{% endif %}
+ \nhttps://www.contramontreal.org/accueil
 {% endif %}
 {% endif %}
 END:VEVENT
