@@ -656,8 +656,8 @@
   band: "Les Quatre Patates"
   caller: "Les Quatre Patates"
   special:
-    en: "Waltz hour before the contra dance 1:30pm&ndash;2:30pm"
-    fr: "Une heure de valse avant la contredanse 13h30&ndash;14h30"
+    en: "Waltz hour before the contra dance 1:30pm–2:30pm"
+    fr: "Une heure de valse avant la contredanse 13h30–14h30"
 
 - date: "2026-11-21"
   start_time: "18:30"
