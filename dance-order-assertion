@@ -1,0 +1,22 @@
+---
+layout: compress_null
+sitemap: false
+---
+{% comment %}
+Multiple parts of this site rely on the events in _data/dances.yml being kept
+in chronological order (or at least a consistent order).  This page exists only
+to cause a build error if event entries are out of order.  There is no standard
+way to conditionally cause a build error, but including a file that doesn't
+exist seems to work and lets us jam in a message.
+{% endcomment %}
+{% for dance in site.data.dances %}
+    {% if forloop.index0 > 0 %}
+        {% assign prev_index = forloop.index0 | minus: 1 %}
+        {% assign prev_dance = site.data.dances[prev_index] %}
+        {% if dance.date < prev_dance.date
+              or dance.date == prev_dance.date
+                 and dance.start_time <= prev_dance.start_time %}
+            {% include ERROR:-fix-the-order-of-dances-in-_data/dances.yml %}
+        {% endif %}
+    {% endif %}
+{% endfor %}

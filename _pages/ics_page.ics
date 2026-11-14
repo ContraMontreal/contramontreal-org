@@ -22,8 +22,7 @@ URL:https://www.contramontreal.org/fr/contramontreal.ics
 METHOD:PUBLISH
 
 {% assign current_date = 'today' | date: '%Y-%m-%d' %}
-{% assign sorted_dances = site.data.dances | sort: "date" %}
-{% for dance in sorted_dances %}
+{% for dance in site.data.dances %}
 {% if dance.date and dance.date >= current_date and dance.start_time and dance.end_time %}
 
 {% comment %}
@@ -31,7 +30,7 @@ METHOD:PUBLISH
     UIDs are unique by adding a sequential suffix.
 {% endcomment %}
 {% assign prev_index = forloop.index0 | minus: 1 %}
-{% if sorted_dances[prev_index].date == dance.date %}
+{% if site.data.dances[prev_index].date == dance.date %}
 {% assign id_suffix = id_suffix | plus: 1 %}
 {% else %}
 {% assign id_suffix = 0 %}
